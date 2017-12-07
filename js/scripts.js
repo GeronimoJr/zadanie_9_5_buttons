@@ -4,8 +4,9 @@ function downloadElements() {
 
 	var max = buttons.length;
 
-	for(i = 1; i <= max; i++) {
-		alert(innerText = buttons); // Jak prawidłowo wyświetlić content buttonów?
+	for(i = 0; i <= max; i++) {
+		var text = buttons[i].innerText;
+		alert(text);
 	}
 }
 
