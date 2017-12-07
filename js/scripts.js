@@ -5,7 +5,7 @@ function downloadElements() {
 	var max = buttons.length;
 
 	for(i = 1; i <= max; i++) {
-		alert(innerText = buttons);
+		alert(innerText = buttons); // Jak prawidłowo wyświetlić content buttonów?
 	}
 }
 
